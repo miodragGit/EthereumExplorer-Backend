@@ -1,0 +1,23 @@
+{
+  "name": "ethereum-explorer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ethereum-block-by-date": "^1.3.2",
+    "express": "^4.17.1",
+    "ganache-cli": "^6.12.2",
+    "node-fetch": "^2.6.1",
+    "web3": "^1.3.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
